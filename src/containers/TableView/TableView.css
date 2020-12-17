@@ -1,0 +1,30 @@
+.text-center{
+    text-align: center;
+}
+.TableContainer{
+    margin: 50px auto 0;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: auto;
+}
+.TableContainer tbody tr:last-child *{
+    border-bottom: 0;
+}
+.TableContainer td{
+    width: 40px;
+}
+.deleteBtn{
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    border: unset;
+    margin-right: 10px;
+    margin-top: 6px;
+}
