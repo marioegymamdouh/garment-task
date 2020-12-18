@@ -8,7 +8,7 @@
     flex-direction: column;
     border: 1px solid #eee;
     border-radius: 10px;
-    max-width: 100%;
+    max-width: 95vw;
     overflow: auto;
 }
 .TableContainer tbody tr:last-child *{
